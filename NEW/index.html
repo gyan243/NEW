@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhruv Mini Mart &amp; Beauty Parlour</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <div class="header-inner">
+      <p class="eyebrow">Varanasi's everyday essentials destination</p>
+      <h1>Dhruv Mini Mart & Beauty Parlour</h1>
+      <p class="tagline">Best Grocery &amp; Beauty Services in Varanasi</p>
+      <div class="divider" aria-hidden="true">
+        <span></span>
+        <strong>DM</strong>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="main-nav" aria-label="Primary navigation">
+    <a class="nav-link active" href="#home" aria-label="Home">
+      <span class="nav-icon">&#8962;</span>
+      Home
+    </a>
+    <a class="nav-link" href="#products" aria-label="Products">
+      <span class="nav-icon">&#9634;</span>
+      Products
+    </a>
+    <a class="nav-link" href="#parlour" aria-label="Parlour services">
+      <span class="nav-icon">&#9986;</span>
+      Parlour
+    </a>
+    <a class="nav-link" href="#contact" aria-label="Contact">
+      <span class="nav-icon">&#9742;</span>
+      Contact
+    </a>
+  </nav>
+
+  <main>
+    <section class="hero" aria-label="Welcome">
+      <div class="hero-visual grocery-visual" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <h2>Welcome to Our Store</h2>
+        <p>Groceries + Beauty Services in one place</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#products">Shop Now</a>
+          <a class="btn btn-secondary" href="#parlour">Book Parlour</a>
+        </div>
+      </div>
+      <div class="hero-visual beauty-visual" aria-hidden="true"></div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Mini Mart</p>
+          <h2><span aria-hidden="true">&#9635;</span> Our Products</h2>
+        </div>
+        <button class="btn btn-small" type="button" id="viewAllProducts">View All Products</button>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-product="Good Day Biscuit" data-price="20">
+          <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=520&q=80" alt="Golden biscuits packet">
+          <div class="card-copy">
+            <h3>Good Day Biscuit</h3>
+            <p class="price">&#8377;20</p>
+            <p>Delicious and crispy biscuits for your tea time.</p>
+            <button class="btn btn-cart" type="button">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-product="Clinic Plus Shampoo" data-price="120">
+          <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=520&q=80" alt="Bottle of hair care shampoo">
+          <div class="card-copy">
+            <h3>Clinic Plus Shampoo</h3>
+            <p class="price">&#8377;120</p>
+            <p>Stronger, smoother and healthier hair care.</p>
+            <button class="btn btn-cart" type="button">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-product="Lakme Peach Milk Cream" data-price="180">
+          <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=520&q=80" alt="Peach milk face cream jar">
+          <div class="card-copy">
+            <h3>Lakme Peach Milk Cream</h3>
+            <p class="price">&#8377;180</p>
+            <p>Moisturizes and gives glowing skin.</p>
+            <button class="btn btn-cart" type="button">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card hidden-product" data-product="Fresh Vegetable Basket" data-price="149">
+          <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=520&q=80" alt="Fresh vegetables in a market basket">
+          <div class="card-copy">
+            <h3>Fresh Vegetable Basket</h3>
+            <p class="price">&#8377;149</p>
+            <p>Seasonal vegetables selected for daily cooking.</p>
+            <button class="btn btn-cart" type="button">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card hidden-product" data-product="Face Care Combo" data-price="299">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=520&q=80" alt="Beauty cosmetics and makeup brushes">
+          <div class="card-copy">
+            <h3>Face Care Combo</h3>
+            <p class="price">&#8377;299</p>
+            <p>Daily skincare essentials for a fresh routine.</p>
+            <button class="btn btn-cart" type="button">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card hidden-product" data-product="Premium Atta Pack" data-price="240">
+          <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=520&q=80" alt="Wheat grains and flour">
+          <div class="card-copy">
+            <h3>Premium Atta Pack</h3>
+            <p class="price">&#8377;240</p>
+            <p>Soft and fresh flour for chapati, puri and paratha.</p>
+            <button class="btn btn-cart" type="button">Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section parlour-section" id="parlour">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Beauty Parlour</p>
+          <h2><span aria-hidden="true">&#9986;</span> Parlour Services</h2>
+        </div>
+        <a class="btn btn-small" href="#contact">Book Now</a>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=600&q=80" alt="Hair styling service">
+          <h3>Hair Cut &amp; Styling</h3>
+          <p>Clean styling, trimming and finishing for daily or party looks.</p>
+          <strong>From &#8377;150</strong>
+        </article>
+
+        <article class="service-card">
+          <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80" alt="Facial skincare service">
+          <h3>Facial &amp; Cleanup</h3>
+          <p>Fresh skin care with cleansing, massage and glow treatment.</p>
+          <strong>From &#8377;399</strong>
+        </article>
+
+        <article class="service-card">
+          <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=600&q=80" alt="Manicure service">
+          <h3>Manicure &amp; Pedicure</h3>
+          <p>Hand and foot care with polish, scrub and soothing massage.</p>
+          <strong>From &#8377;299</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cart-contact-wrap">
+      <aside class="cart-panel" aria-label="Shopping cart">
+        <div class="section-heading compact">
+          <div>
+            <p class="section-kicker">Your Cart</p>
+            <h2><span aria-hidden="true">&#9634;</span> Cart Summary</h2>
+          </div>
+          <button class="link-button" type="button" id="clearCart">Clear</button>
+        </div>
+        <ul class="cart-list" id="cartList">
+          <li class="empty-cart">No items added yet.</li>
+        </ul>
+        <div class="cart-total">
+          <span>Total</span>
+          <strong id="cartTotal">&#8377;0</strong>
+        </div>
+      </aside>
+
+      <section class="contact-panel" id="contact" aria-label="Contact details">
+        <p class="section-kicker">Contact</p>
+        <h2>Visit Dhruv Mini Mart &amp; Beauty Parlour</h2>
+        <div class="contact-grid">
+          <p><strong>Address</strong><span>Near local market,Baragaon Ramnagar (Gopalpur) Varanasi, Uttar Pradesh</span></p>
+          <p><strong>Phone</strong><span>+91 98765 43210</span></p>
+          <p><strong>Timing</strong><span>8:00 AM - 9:00 PM</span></p>
+        </div>
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name">
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="3" placeholder="Product order or parlour booking"></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send Enquiry</button>
+        </form>
+      </section>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Dhruv Mini Mart &amp; Beauty Parlour. Groceries, beauty products and parlour services in Varanasi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
